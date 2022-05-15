@@ -135,25 +135,25 @@ function validateItemForm()
 	return "Insert CustomerlName.";
 }
 
-/*// PRICE-------------------------------
-if ($("#itemPrice").val().trim() == ""){
-	return "Insert Item Price.";
-}
-		// is numerical value
-		var tmpPrice = $("#itemPrice").val().trim();
-		if (!$.isNumeric(tmpPrice))
-	{
-	return "Insert a numerical value for Item Price.";
-	}
-		
-// convert to decimal price
-$("#itemPrice").val(parseFloat(tmpPrice).toFixed(2));*/
 
 // DESCRIPTION------------------------
 if ($("#AccountNumber").val().trim() == ""){
 	
 	return "Insert AccountNumber.";
 }
+
+
+// is numerical value
+var AccNo = $("#AccountNumber").val().trim();
+if (!$.isNumeric(AccNo))
+{
+return "Insert a numerical value for Account Number.";
+}
+// convert to integer
+$("#AccountNumber").val(parseInt(AccNo));
+
+
+
 if ($("#CustomerNIC").val().trim() == ""){
 	
 	return "Insert CustomerNIC.";
@@ -166,6 +166,18 @@ if ($("#CustomerPhone").val().trim() == ""){
 	
 	return "Insert CustomerPhone.";
 }
+
+// is numerical value
+var PhoneNo = $("#CustomerPhone").val().trim();
+if (!$.isNumeric(PhoneNo))
+{
+return "Insert a numerical value for Phone Number.";
+}
+// convert to integer
+$("#CustomerPhone").val(parseInt(PhoneNo));
+
+
+
 
 	return true;
 }
