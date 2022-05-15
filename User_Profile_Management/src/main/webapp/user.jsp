@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col">
-					<h1>Items Management</h1>
+					<h1>Accounts Management</h1>
 					<form id="formItem" name="formItem" method="POST" action="user.jsp">
 						
 
