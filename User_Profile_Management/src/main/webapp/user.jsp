@@ -19,7 +19,7 @@
 					<form id="formItem" name="formItem" method="POST" action="user.jsp">
 						
 
-						CustomerfName: 
+						Customer First Name: 
 						<input 
 							id="CustomerfName"
 							name="CustomerfName" 
@@ -27,7 +27,7 @@
 							class="form-control form-control-sm"
 						><br>
 
-						CustomerlName: 
+						Customer Last Name: 
 						<input 
 							id="CustomerlName" 
 							name="CustomerlName" 
@@ -35,7 +35,7 @@
 							class="form-control form-control-sm"
 						><br>
 
-						AccountNumber: 
+						Account Number: 
 						<input 
 							id="AccountNumber" 
 							name="AccountNumber" 
@@ -43,7 +43,7 @@
 							class="form-control form-control-sm"
 						><br>
 						
-						CustomerNIC: 
+						Customer NIC: 
 						<input 
 							id="CustomerNIC" 
 							name="CustomerNIC" 
@@ -51,7 +51,7 @@
 							class="form-control form-control-sm"
 						><br>
 						
-						CustomerEmail: 
+						Customer Email: 
 						<input 
 							id="CustomerEmail" 
 							name="CustomerEmail" 
@@ -59,7 +59,7 @@
 							class="form-control form-control-sm"
 						><br>
 						
-						CustomerPhone: 
+						Customer Phone: 
 						<input 
 							id="CustomerPhone" 
 							name="CustomerPhone" 
